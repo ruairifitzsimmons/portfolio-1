@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/Logo Small.png';
+import logo from '../images/Logo Blue - Small.png';
 import mainImage from '../images/main-image.png';
 
 const Hero = () => {
@@ -8,8 +8,8 @@ const Hero = () => {
 
             {/* Greeting */}
             <div className='inline-flex mb-4'>
-                <img src={logo} className='w-12 h-12' alt=''/>
-                <h1 className='text-3xl font-bold text-gray-900 font-caveat mt-2 ml-4 tracking-widest'>Decision</h1>
+                <img src={logo} className='w-16' alt=''/>
+                <h1 className='text-4xl font-bold text-gray-900 font-inter mt-4 ml-4'>Decision</h1>
             </div>
 
             {/* Header */}

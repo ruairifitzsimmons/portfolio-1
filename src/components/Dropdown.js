@@ -10,7 +10,7 @@ const Dropdown = ({isOpen, toggle}) => {
 
             <Link className='p-4 my-1 rounded-lg hover:bg-gray-100' to='/work'>Work</Link>
             
-            <Link className='p-4 my-1 rounded-lg bg-gray-100 text-gray-600 border hover:text-gray-800 hover:border-gray-300' to='/contact'>Get started now</Link>
+            <Link className='p-4 my-1 rounded-lg hover:bg-gray-100' to='/contact'>Get started now</Link>
 
             <div className='inline-flex my-3 mr-1 justify-end'>
                 <a className='p-3 text-xl text-gray-400 hover:text-gray-600' href='/'>
