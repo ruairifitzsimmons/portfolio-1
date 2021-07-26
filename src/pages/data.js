@@ -1,3 +1,6 @@
+import websitePreview from '../images/Website Preview.png';
+import socialPreview from '../images/Social Media Preview.png';
+
 const phone = <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 transform -rotate-12 filter drop-shadow-md" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
 </svg>
@@ -23,7 +26,8 @@ export const serviceOne = {
     textColorOne: 'text-bloodorange-1',
     textColorTwo: 'text-bloodorange-2',
     textColorThree: 'text-bloodorange-3',
-    icon: fingerprint
+    icon: fingerprint,
+    customImage: ''
 };
 
 export const serviceTwo = {
@@ -37,7 +41,8 @@ export const serviceTwo = {
     textColorOne: 'text-cyan-1',
     textColorTwo: 'text-cyan-2',
     textColorThree: 'text-cyan-3',
-    icon: phone
+    icon: phone,
+    customImage: socialPreview
 };
 
 export const serviceThree = {
@@ -51,5 +56,6 @@ export const serviceThree = {
     textColorOne: 'text-limegreen-1',
     textColorTwo: 'text-limegreen-2',
     textColorThree: 'text-limegreen-3',
-    icon: mouse
+    icon: mouse,
+    customImage: websitePreview
 };

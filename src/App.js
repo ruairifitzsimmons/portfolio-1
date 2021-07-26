@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Home from './pages/index';
 import Navbar from './components/Navbar';
-import Service from './components/Service';
 import Dropdown from './components/Dropdown';
 import { Route, Switch } from 'react-router-dom';
 
