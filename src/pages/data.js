@@ -1,5 +1,6 @@
 import websitePreview from '../images/Website Preview.png';
 import socialPreview from '../images/Social Media Preview.png';
+import brandingPreview from '../images/Branding Preview.png';
 
 const phone = <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 transform -rotate-12 filter drop-shadow-md" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
@@ -18,37 +19,37 @@ const mouse = <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 filter 
 export const serviceOne = {
     subHeading: 'BRAND IDENTITY',
     heading: 'Stand out from the crowd.',
-    description: 'Utility classes help you work within the constraints of a system instead of littering your stylesheets with arbitrary values. They make it easy to be consistent with color choices, spacing, typography, shadows, and everything else that makes up a well-engineered design system.',
+    description: 'You have an image. It will look and feel a certain way, and it needs to be in align with your purpose. The colours, logo, content, and everything that is visually represented - should be unique to you.',
     buttonLabel: 'Learn more',
-    fromColorOne: 'from-bloodorange-1',
-    toColorTwo: 'to-bloodorange-2',
-    colorThree: 'bloodorange-3',
-    textColorOne: 'text-bloodorange-1',
-    textColorTwo: 'text-bloodorange-2',
-    textColorThree: 'text-bloodorange-3',
-    icon: fingerprint,
-    customImage: ''
-};
-
-export const serviceTwo = {
-    subHeading: 'SOCIAL NOISE',
-    heading: 'Maximize your presence online.',
-    description: 'Because Tailwind is so low-level, it never encourages you to design the same site twice. Even with the same color palette and sizing scale, it\'s easy to build the same component with a completely different look in the next project.',
-    buttonLabel: 'Get started',
     fromColorOne: 'from-cyan-1',
     toColorTwo: 'to-cyan-2',
     colorThree: 'cyan-3',
     textColorOne: 'text-cyan-1',
     textColorTwo: 'text-cyan-2',
     textColorThree: 'text-cyan-3',
+    icon: fingerprint,
+    customImage: brandingPreview
+};
+
+export const serviceTwo = {
+    subHeading: 'DIGITAL CONTENT',
+    heading: 'Create social noise.',
+    description: 'Instagram, Facebook, LinkedIn... they\'re the places to be. They\'re all areas for your brand to reach, grow and blossom into something you didn\'t think possible. Make the move, create social noise.',
+    buttonLabel: 'Get started',
+    fromColorOne: 'from-bloodorange-1',
+    toColorTwo: 'to-bloodorange-2',
+    colorThree: 'bloodorange-3',
+    textColorOne: 'text-bloodorange-1',
+    textColorTwo: 'text-bloodorange-2',
+    textColorThree: 'text-bloodorange-3',
     icon: phone,
     customImage: socialPreview
 };
 
 export const serviceThree = {
     subHeading: 'YOUR HOMEPAGE',
-    heading: 'Something simple, unique to you.',
-    description: 'Tailwind automatically removes all unused CSS when building for production, which means your final CSS bundle is the smallest it could possibly be. In fact, most Tailwind projects ship less than 10kB of CSS to the client.',
+    heading: 'Your own platform.',
+    description: 'People get curious, they seek more. A website designed unique to you, might be the solution you need. Want to show off your portfolio? Or list your amazing services? You\'re in the right place.',
     buttonLabel: 'Learn more',
     fromColorOne: 'from-limegreen-1',
     toColorTwo: 'to-limegreen-2',

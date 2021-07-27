@@ -13,9 +13,9 @@ const Service = ({
 
 }) => {
     return (
-        <div className='lg:max-w-screen-xl my-40 px-4 sm:px-8 lg:px-18 bg-white flex lg:flex-row flex-col items-start justify-center m-auto'>
+        <div className='lg:max-w-screen-xl my-20 sm:px-8 lg:px-18 py-7 bg-white flex lg:flex-row flex-col m-auto xl:border border-gray-200 hover:border-gray-300 rounded-2xl duration-300'>
             
-            <div className='lg:w-2/4'>
+            <div className='lg:w-4/6 '>
                 <div className={`bg-gradient-to-br ${fromColorOne} ${toColorTwo} text-white p-2.5 rounded-xl mb-8 w-12`}>
                     {icon}
                 </div>
@@ -37,8 +37,8 @@ const Service = ({
                 </a>
             </div>
             
-            <div className='lg:w-2/4 lg:ml-12'>
-                <img src={customImage} className='mt-14 lg:mt-2' alt=''/>
+            <div className='lg:w-2/6 mt-12 lg:mt-0 self-center'>
+                <img src={customImage} className='' alt=''/>
             </div>
         </div>
     )

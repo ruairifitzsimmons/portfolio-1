@@ -36,13 +36,6 @@ const Hero = () => {
                     </svg>
                 </button>
             </div>
-
-            {/* Display */}
-            <div className='my-20'>
-            <div className='w-full flex-none bg-gradient-to-br from-cyan-1 to-cyan-2 rounded-3xl shadow-md transform -rotate-3' >
-                <img src={mainImage} className='transform rotate-3' alt=''/>
-                </div>
-            </div>
             
         </div>
     )
