@@ -1,32 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
+import { motion } from 'framer-motion';
 
-const Dropdown = ({isOpen, toggle}) => {
+const Dropdown = ({isOpen, toggle, setIsOpen}) => {
+
+    const variants = {
+        open: { opacity: 1, scale:1},
+        closed: { opacity: 1, scale:0.5},
+      }
+
     return (
-        <div className={isOpen ? 'animation-bounce absolute w-full flex flex-col text-right px-3 py-2 bg-white rounded-b-xl text-gray-500 font-inter font-medium shadow-2xl' : 'hidden'} onClick={toggle}>
-            
-            <Link className='p-4 my-1 rounded-lg hover:bg-gray-100' to='/work'>Home</Link>
+        <motion.div animate={isOpen ? 'open' : 'closed'} variants={variants}
+        className={isOpen ? 'absolute w-full flex flex-col text-right px-3 py-2 bg-white rounded-b-xl text-gray-500 font-inter font-medium shadow-2xl' : 'hidden'} onClick={toggle}>
+            <toggle onClick={() => setIsOpen(isOpen => !isOpen)} />
 
             <Link className='p-4 my-1 rounded-lg hover:bg-gray-100' to='/work'>Work</Link>
             
             <Link className='p-4 my-1 rounded-lg hover:bg-gray-100' to='/contact'>Get started now</Link>
 
-            <div className='inline-flex my-3 mr-1 justify-end'>
-                <a className='p-3 text-xl text-gray-400 hover:text-gray-600' href='/'>
-                    <SiFacebook/>
-                </a>
-
-                <a className='p-3 mx-12 text-xl text-gray-400 hover:text-gray-600' href='/'>
-                    <SiInstagram/>
-                </a>
-
-                <a className='p-3 text-xl text-gray-400 hover:text-gray-600' href='/'>
-                    <SiLinkedin/>
-                </a>
-            </div>
-
-        </div>
+        </motion.div>
     )
 }
 

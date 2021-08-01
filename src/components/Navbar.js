@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from '../images/Logo Blue - Small.png';
 
 const Navbar = ({toggle}) => {
   return (
@@ -8,7 +9,10 @@ const Navbar = ({toggle}) => {
 
       {/* Logo & name */}
       <Link to="/">
-        <h1 className='font-normal text-gray-500'>Need to put something here</h1>
+        <div className='inline-flex'>
+          <img src={logo} className='w-10 h-10' alt=''/>
+          <h1 className='text-2xl font-bold text-gray-800 font-inter mt-2 ml-2 tracking-tighter'>Decision Digital</h1>
+        </div>
       </Link>
 
       {/* Hamburger menu */}

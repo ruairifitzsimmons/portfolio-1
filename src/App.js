@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Home from './pages/index';
+import Contact from './pages/contact';
 import Navbar from './components/Navbar';
 import Dropdown from './components/Dropdown';
 import { Route, Switch } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 function App() {
 
@@ -32,6 +34,7 @@ useEffect(() => {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Switch>
         <Route path='/' exact component={Home}/>
+        <Route path='/contact' exact component={Contact}/>
       </Switch>
     </>
   );

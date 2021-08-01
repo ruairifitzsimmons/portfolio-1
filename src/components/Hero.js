@@ -6,12 +6,6 @@ const Hero = () => {
     return (
         <div className='lg:max-w-screen-xl mt-14 px-4 sm:px-8 lg:px-18 bg-white flex flex-col items-start justify-center m-auto'>
 
-            {/* Greeting */}
-            <div className='inline-flex mb-4'>
-                <img src={logo} className='w-16' alt=''/>
-                <h1 className='text-4xl font-bold text-gray-900 font-inter mt-4 ml-4'>Decision</h1>
-            </div>
-
             {/* Header */}
             <h1 className='main-heading'>
                 Future-proofing businesses through design.
