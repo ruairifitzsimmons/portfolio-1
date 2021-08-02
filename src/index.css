@@ -8,7 +8,7 @@
     @apply py-2.5 px-6 bg-gray-900 hover:bg-gray-700 duration-200 font-semibold text-white rounded-xl;
 }
 .button-icon {
-    @apply inline-flex ml-4 py-2.5 px-6 bg-gray-50 font-semibold text-gray-400 border border-gray-300 rounded-xl duration-200 hover:text-gray-900;
+    @apply inline-flex py-2.5 px-6 bg-gray-50 font-semibold text-gray-400 border border-gray-300 rounded-xl duration-200 hover:text-gray-900 justify-center;
 }
 .button-arrow {
     @apply text-2xl inline-flex font-medium mt-6;
@@ -22,10 +22,10 @@
     @apply max-w-screen-lg
 }
 .main-heading {
-    @apply text-5xl lg:text-7xl sm:text-6xl text-gray-900 font-extrabold mt-8 mb-10 max-w-screen-lg;
+    @apply text-4xl lg:text-7xl sm:text-6xl text-gray-900 font-extrabold mt-8 mb-10 max-w-screen-lg;
 }
 .secondary-heading {
-    @apply text-5xl lg:text-6xl sm:text-6xl font-extrabold mt-3 mb-8 max-w-screen-lg;
+    @apply text-5xl lg:text-6xl sm:text-6xl text-gray-900 font-extrabold mt-3 mb-8 max-w-screen-lg;
 }
 .sub-heading {
     @apply text-lg tracking-wide font-semibold uppercase;

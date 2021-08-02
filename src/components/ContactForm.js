@@ -11,11 +11,11 @@ function ContactForm() {
         </div>];
     }
     return (
-        <form onSubmit={handleSubmit} className='font-inter border border-gray-200 my-12 w-max m-auto rounded-2xl'>
+        <form onSubmit={handleSubmit} className='font-inter sm:border border-gray-200 my-12 w-max m-auto rounded-2xl'>
 
             <div className='mx-6 mt-6 mb-6'>
-                <p className='sub-heading text-cyan-3'>CONTACT FORM</p>
-                <h1 className='secondary-heading w-96'>Get started</h1>
+                <p className='sub-heading text-cyan-3'>Work with us</p>
+                <h1 className='secondary-heading'>Contact</h1>
             </div>
 
             <div className='flex flex-col mx-6'>
@@ -36,14 +36,15 @@ function ContactForm() {
                 <ValidationError prefix='Message' field='message' errors={state.errors}/>
             </div>
 
-            <div className='flex flex-row mt-8 mb-6 justify-between'>
-            <button type='submit' disabled={state.submitting} className='button-main mx-6 '>Send message</button>
+            <div className='inline-flex mt-8 mb-6 justify-between'>
+                <button type='submit' disabled={state.submitting} className='button-main mx-6'>Send message</button>
 
-            <div className='flex flex-row mx-6 text-xl text-gray-300 justify-between w-24 items-end '>
-                <a className='hover:text-gray-400 duration-300' href='/'><FaFacebookSquare/></a>
-                <a className='hover:text-gray-400 duration-300' href='/'><FaInstagram/></a>
-                <a className='hover:text-gray-400 duration-300' href='/'><FaLinkedinIn/></a>
-            </div>
+                <div className='inline-flex mx-6 text-xl text-gray-300 justify-between w-24 items-end '>
+                    <a className='hover:text-gray-400 duration-300' href='/'><FaFacebookSquare/></a>
+                    <a className='hover:text-gray-400 duration-300' href='/'><FaInstagram/></a>
+                    <a className='hover:text-gray-400 duration-300' href='/'><FaLinkedinIn/></a>
+                </div>
+                
             </div>
 
         </form>
