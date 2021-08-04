@@ -6,7 +6,7 @@ const Dropdown = ({isOpen, toggle, setIsOpen}) => {
 
     const variants = {
         open: { opacity: 1},
-        closed: { y:-50, opacity: 0},
+        closed: { y:-30, opacity: 1},
       }
 
     return (

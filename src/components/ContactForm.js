@@ -6,8 +6,8 @@ function ContactForm() {
     const [state, handleSubmit] = useForm('xayawrdl');
     if (state.succeeded) {
         return [<ContactForm/>,
-        <div className='bg-green-100 m-auto w-96 rounded-md border border-green-200'>
-            <p className='text-center text-green-600 py-2 font-inter text-sm'>Thank you, your message has been sent.</p>
+        <div className='absolute text-center m-auto w-full rounded-md -mt-10'>
+            <p className='text-center text-green-500 py-2 font-inter text-sm'>Thank you, your message has been sent.</p>
         </div>];
     }
     return (

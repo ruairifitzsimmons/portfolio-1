@@ -22,7 +22,7 @@
     @apply max-w-screen-lg
 }
 .main-heading {
-    @apply text-4xl lg:text-7xl sm:text-6xl text-gray-900 font-extrabold mt-8 mb-10 max-w-screen-lg;
+    @apply text-5xl lg:text-7xl sm:text-6xl text-gray-900 font-extrabold mt-8 mb-10 max-w-screen-lg;
 }
 .secondary-heading {
     @apply text-5xl lg:text-6xl sm:text-6xl text-gray-900 font-extrabold mt-3 mb-8 max-w-screen-lg;

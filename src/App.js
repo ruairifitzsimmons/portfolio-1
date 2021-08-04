@@ -4,6 +4,7 @@ import Home from './pages/index';
 import Contact from './pages/contact';
 import Navbar from './components/Navbar';
 import Dropdown from './components/Dropdown';
+import Footer from './components/Footer';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -35,6 +36,7 @@ useEffect(() => {
         <Route path='/' exact component={Home} replace/>
         <Route path='/contact' exact component={Contact} replace/>
       </Switch>
+      <Footer/>
     </>
   );
 }

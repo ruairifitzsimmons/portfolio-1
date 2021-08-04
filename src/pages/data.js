@@ -35,7 +35,7 @@ export const serviceTwo = {
     subHeading: 'DIGITAL CONTENT',
     heading: 'Create social noise.',
     description: 'Instagram, Facebook, LinkedIn... they\'re the places to be. They\'re all areas for your brand to reach, grow and blossom into something you didn\'t think possible. Make the move, create social noise.',
-    buttonLabel: 'Get started',
+    buttonLabel: 'Learn more',
     fromColorOne: 'from-bloodorange-1',
     toColorTwo: 'to-bloodorange-2',
     colorThree: 'bloodorange-3',

@@ -4,7 +4,7 @@ import logo from '../images/Logo Blue - Small.png';
 
 const Navbar = ({toggle}) => {
   return (
-    <nav className='lg:max-w-screen-xl m-auto px-4 sm:px-8 lg:px-18 flex justify-between items-center h-20 bg-transparent border-b text-base font-inter font-medium' 
+    <nav className='lg:max-w-screen-xl m-auto px-6 sm:px-8 lg:px-18 flex justify-between items-center h-20 bg-transparent border-b text-base font-inter font-medium' 
     role='navigation'>
 
       {/* Logo & name */}
