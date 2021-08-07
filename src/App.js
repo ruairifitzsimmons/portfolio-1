@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Home from './pages/index';
+import Work from './pages/work';
 import Contact from './pages/contact';
 import Navbar from './components/Navbar';
 import Dropdown from './components/Dropdown';
@@ -34,6 +35,7 @@ useEffect(() => {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Switch>
         <Route path='/' exact component={Home} replace/>
+        <Route path='/work' exact component={Work} replace/>
         <Route path='/contact' exact component={Contact} replace/>
       </Switch>
       <Footer/>

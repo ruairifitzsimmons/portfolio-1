@@ -24,12 +24,12 @@ const Hero = () => {
             </div>
 
             {/* Header */}
-            <h1 className='main-heading'>
+            <h1 className='main-heading text-gray-900'>
                 Future-proof your brand through design.
             </h1>
 
             {/* Description */}
-            <p className='description'>
+            <p className='description text-gray-500'>
                 A design agency with creative spark. We focus on making your business stand out with a <span className='text-black font-medium'>strong</span> brand identity, <span className='text-black font-medium'>enticing</span> social media content & <span className='text-black font-medium'>effective</span> web design.
             </p>
 

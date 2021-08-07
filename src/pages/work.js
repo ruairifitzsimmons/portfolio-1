@@ -1,14 +1,15 @@
 import React from 'react';
-import ContactForm from '../components/ContactForm';
+import OurServices from '../components/OurServices';
 import SocialMediaAccelerator from '../components/SocialMediaAccelerator';
 
-const contact = () => {
+
+const work = () => {
     return (
         <>
-            <ContactForm/>
+            <OurServices/>
             <SocialMediaAccelerator/>
         </>
     )
 }
 
-export default contact
+export default work

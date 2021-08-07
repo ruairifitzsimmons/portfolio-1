@@ -6,12 +6,12 @@ function ContactForm() {
     const [state, handleSubmit] = useForm('xayawrdl');
     if (state.succeeded) {
         return [<ContactForm/>,
-        <div className='absolute text-center m-auto w-full rounded-md -mt-10'>
+        <div className='absolute text-center m-auto w-full rounded-md -mt-20'>
             <p className='text-center text-green-500 py-2 font-inter text-sm'>Thank you, your message has been sent.</p>
         </div>];
     }
     return (
-        <form onSubmit={handleSubmit} className='font-inter sm:border border-gray-200 my-12 w-max m-auto rounded-2xl'>
+        <form onSubmit={handleSubmit} className='font-inter sm:border border-gray-200 mt-12 my-24 w-max m-auto rounded-2xl'>
 
             <div className='mx-6 mt-6 mb-6'>
                 <p className='sub-heading text-cyan-3'>Work with us</p>

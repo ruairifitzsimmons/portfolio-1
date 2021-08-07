@@ -21,13 +21,13 @@ const Service = ({
                 </div>
 
                 {/* Sub heading */}
-                <h1 className={`sub-heading ${textColorThree}`}>{subHeading}</h1>
+                <h3 className={`sub-heading ${textColorThree}`}>{subHeading}</h3>
 
                 {/* Heading */}
-                <h1 className='secondary-heading'>{heading}</h1>
+                <h2 className='secondary-heading text-gray-900'>{heading}</h2>
                 
                 {/* Description */}
-                <p className='description'>{description}</p>
+                <p className='description text-gray-500'>{description}</p>
 
                 {/* Button */}
                 <a className={`button-arrow ${textColorThree}`} href='/'>{buttonLabel}
