@@ -1,15 +1,14 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import Service from '../components/Service'
-import {serviceOne, serviceTwo, serviceThree} from '../pages/data';
+import Services from '../components/Services'
+import Pricing from '../components/Pricing'
 
 const index = () => {
     return (
         <>
             <Hero/>
-            <Service {...serviceOne}/>
-            <Service {...serviceTwo}/>
-            <Service {...serviceThree}/>
+            <Pricing/>
+            <Services/>
         </>
     )
 }

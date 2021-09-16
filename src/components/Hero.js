@@ -1,27 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
-        <div className='lg:max-w-screen-xl mt-14 px-6 sm:px-8 lg:px-18 bg-white flex flex-col items-start justify-center m-auto'>
+        <div className='lg:max-w-screen-xl mt-20 px-6 sm:px-8 lg:px-18 bg-white flex flex-col items-start justify-center m-auto'>
 
-            {/* Alert */}
-            <div className='inline-flex text-left'>
-                {/* Alert Box */}
-                <div className='text-sm font-medium border border-green-300 bg-green-100 rounded-md px-2 text-green-500 self-center'>NEW</div>
-                {/* Button */}
-                <Link to='/contact'>
-                    <button className='inline-flex ml-2 text-lg font-medium text-gray-800 hover:text-gray-500 duration-100'>
-                        <span className='border-b-2'>
-                        The Social Media Accelerator
-                        </span>
-                        {/* Arrow */}
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mt-1 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                        </svg>
-                    </button>
-                </Link>
-            </div>
+            <h2 className='text-brand-1 font-bold tracking-widest text-base'>YOUR DIGITAL SOLUTION</h2>
 
             {/* Header */}
             <h1 className='main-heading text-gray-900'>
@@ -41,10 +24,7 @@ const Hero = () => {
                 </button>
                 {/* Button 2 */}
                 <button className='button-icon mt-2 sm:mt-0 w-full sm:w-auto'>
-                    Learn more about us
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mt-1 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                    </svg>
+                    Learn more about us <span className='ml-3'>👋🏼</span>
                 </button>
             </div>
             

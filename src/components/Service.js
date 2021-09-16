@@ -13,7 +13,7 @@ const Service = ({
 
 }) => {
     return (
-        <div className='lg:max-w-screen-xl my-20 sm:px-8 lg:px-18 py-7 px-6 bg-white flex lg:flex-row flex-col m-auto xl:border border-gray-200 hover:border-gray-300 rounded-2xl duration-300'>
+        <div className='lg:max-w-screen-xl my-20 sm:px-8 lg:px-18 py-7 px-6 bg-white flex lg:flex-row flex-col m-auto  hover:border-gray-300 rounded-2xl duration-300'>
             
             <div className='lg:w-4/6'>
                 <div className={`bg-gradient-to-br ${fromColorOne} ${toColorTwo} text-white p-2.5 rounded-xl mb-8 w-12`}>
@@ -41,6 +41,7 @@ const Service = ({
                 <img src={customImage} className='' loading="lazy" alt=''/>
             </div>
         </div>
+        
     )
 }
 

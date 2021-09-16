@@ -14,7 +14,7 @@ function ContactForm() {
         <form onSubmit={handleSubmit} className='font-inter sm:border border-gray-200 mt-12 my-24 w-max m-auto rounded-2xl'>
 
             <div className='mx-6 mt-6 mb-6'>
-                <p className='sub-heading text-cyan-3'>Work with us</p>
+                <p className='sub-heading text-brand-1'>Work with us</p>
                 <h1 className='secondary-heading'>Contact</h1>
             </div>
 

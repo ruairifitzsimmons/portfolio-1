@@ -8,6 +8,11 @@ module.exports = {
         'caveat': ['Caveat', 'cursive']
       },
       colors: {
+          brand: {
+            1: '#FF3366',
+            2: '#0f1126',
+            3: '#00feff'
+          },
           cyan: {
             1: '#21D2EE',
             2: '#0EA3E4',

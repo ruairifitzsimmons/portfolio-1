@@ -27,15 +27,12 @@ const OurServices = () => {
     return (
         <div className='lg:max-w-screen-xl mt-10 mb-20 sm:px-8 lg:px-18 py-7 px-6 m-auto font-inter'>
             
-            <h2 className='sub-heading text-cyan-3'>What we do</h2>
-            <h1 className='secondary-heading'>Services</h1>
-            
             <div className='grid grid-cols-2 lg:grid-cols-6 gap-3 justify-center text-center text-gray-600'>
 
                 {/* Our services */}
                 <div className='grid-square'>
                     {fingerprint}
-                    <h2 className='grid-text'>Logos</h2>
+                    <h2 className='grid-text'>Logo Design</h2>
                 </div>
 
                 <div className='grid-square'>
@@ -45,12 +42,12 @@ const OurServices = () => {
 
                 <div className='grid-square'>
                     {computer}
-                    <h2 className='grid-text'>Graphics</h2>
+                    <h2 className='grid-text'>Graphic Design</h2>
                 </div>
 
                 <div className='grid-square'>
                     {mobile}
-                    <h2 className='grid-text'>Content</h2>
+                    <h2 className='grid-text'>Social Content</h2>
                 </div>
 
                 <div className='grid-square'>
@@ -60,7 +57,7 @@ const OurServices = () => {
 
                 <div className='grid-square'>
                     {cursor}
-                    <h2 className='grid-text'>Websites</h2>
+                    <h2 className='grid-text'>Web Design</h2>
                 </div>
             </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from '../images/Logo Blue - Small.png';
+import logo from '../images/logo.png';
 
 const Navbar = ({toggle}) => {
   return (
@@ -10,8 +10,7 @@ const Navbar = ({toggle}) => {
       {/* Logo & name */}
       <Link to="/">
         <div className='inline-flex'>
-          <img src={logo} className='w-10 h-10' alt=''/>
-          <h1 className='text-2xl font-bold text-gray-800 font-inter mt-2 ml-2 tracking-tighter'>Decision Digital</h1>
+          <img src={logo} className='h-10' alt=''/>
         </div>
       </Link>
 

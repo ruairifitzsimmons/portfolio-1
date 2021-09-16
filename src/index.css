@@ -36,9 +36,9 @@
 
 /* Text */
 .grid-square {
-    @apply bg-gray-50 rounded-xl py-10 sm:py-12 hover:bg-gray-100 duration-100 cursor-pointer;
+    @apply  rounded-xl py-10 sm:py-12;
 }
 
 .grid-text {
-    @apply text-base font-semibold mt-4;
+    @apply text-base font-medium mt-4 tracking-wider;
 }
