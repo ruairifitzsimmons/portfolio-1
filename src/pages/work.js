@@ -1,13 +1,10 @@
-import React from 'react';
-import OurServices from '../components/OurServices';
-import SocialMediaAccelerator from '../components/SocialMediaAccelerator';
-
+import React from 'react'
+import Service from '../components/Service'
 
 const work = () => {
     return (
         <>
-            <OurServices/>
-            <SocialMediaAccelerator/>
+            <Service/>
         </>
     )
 }

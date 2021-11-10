@@ -44,7 +44,7 @@ const Services = () => {
                     </div>
                     {/* Text */}
                     <h2 className='pb-4 font-semibold tracking-tight text-xl'>Web Design</h2>
-                    <p className='tracking-wide text-base text-gray-500 lg:px-8 leading-relaxed'>Your own corner of the internet, built just for you.</p>
+                    <p className='tracking-wide text-base text-gray-500 lg:px-8 leading-relaxed'>Your own corner of the internet, built perfect for you.</p>
                     
                 </div>
 

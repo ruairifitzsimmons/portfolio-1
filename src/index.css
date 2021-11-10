@@ -5,7 +5,7 @@
 
 /* Buttons */
 .button-main {
-    @apply py-2.5 px-6 bg-gray-900 hover:bg-gray-700 duration-200 font-semibold text-white rounded-xl;
+    @apply py-2.5 px-6 bg-gray-900 hover:bg-gray-700 duration-200 font-semibold text-white rounded-xl text-lg;
 }
 .button-icon {
     @apply inline-flex py-2.5 px-6 bg-gray-50 font-semibold text-gray-400 border border-gray-300 rounded-xl duration-200 hover:text-gray-900 justify-center;
@@ -15,6 +15,10 @@
 }
 .button-shadow {
     @apply hover:shadow-md;
+}
+
+.pricing-button {
+    @apply px-4 py-2 font-light text-lg tracking-wide text-black group w-full sm:w-auto ml-0 lg:ml-2 mt-4 md:mt-0;
 }
 
 /* Text */
@@ -27,11 +31,20 @@
 .secondary-heading {
     @apply text-5xl lg:text-6xl sm:text-6xl font-extrabold mt-3 mb-8 max-w-screen-lg;
 }
+
+.third-heading {
+    @apply text-3xl lg:text-3xl sm:text-4xl font-semibold max-w-screen-lg;
+}
+
 .sub-heading {
     @apply text-lg tracking-wide font-semibold uppercase;
 }
 .description {
     @apply text-xl leading-7 lg:text-2xl max-w-screen-lg lg:leading-relaxed lg:tracking-wide;
+}
+
+.description-small {
+    @apply text-xl leading-5 lg:text-xl max-w-screen-lg lg:leading-relaxed lg:tracking-wide;
 }
 
 /* Text */
@@ -41,4 +54,13 @@
 
 .grid-text {
     @apply text-base font-medium mt-4 tracking-wider;
+}
+
+/* Service */
+.service-wrapper {
+    @apply border border-gray-200 rounded-2xl shadow-xl hover:shadow-2xl duration-500 p-8 mb-20 mt-20 w-full;
+}
+
+.service-heading {
+    @apply text-4xl md:text-5xl font-bold tracking-tight mb-8;
 }
